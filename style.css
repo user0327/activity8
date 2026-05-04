@@ -1,0 +1,69 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.web1-con {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background-color: #1052b3;
+    overflow: hidden;
+}
+
+.web1-pic {
+    flex: 1.2; /* Adjust this to make the photo larger or smaller */
+    background-image: url(images/c1.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.web-info {
+    flex: 1;
+    color: white;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; /* Centers everything including the button */
+}
+
+.web-info h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid white;
+    padding-bottom: 10px;
+    line-height: 1.2; /* Fixed from 2px */
+    width: 80%;
+    text-align: center;
+}
+
+.web-info p {
+    font-size: 16px;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    text-align: center;
+    max-width: 90%; /* Increased so it takes up more side space */
+    opacity: 0.95;
+}
+
+/* Button Styling to make it look neat */
+.creator-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    cursor: pointer;
+    font-family: inherit;
+    transition: 0.3s;
+}
+
+.creator-btn:hover {
+    background-color: white;
+    color: #1052b3;
+}
